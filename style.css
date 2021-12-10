@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif; 
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.048);
+    min-height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    background-color: rgb(222, 235, 238);
+    border-radius: 40px;
+    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(0, 0, 0, 0.089);
+}
+
+input[type="number"],textarea{
+    padding: 1rem;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: inset 2px 2px 5px #babecc,
+    inset -1px -1px 2px #ffffff73;
+}
+
+textarea, input{
+    font-size: 100%;
+}
+
+input[type="number"]{
+    width: 40px;
+}
+
+label, textarea, button{
+    display: block;
+    width: 100%;
+}
+
+#num{
+    pointer-events: none;
+}
+
+button{
+    margin-top: 2rem;
+    margin-bottom: 12px;
+    padding: 15px;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer{
+    color: #ffffff;
+    text-align: center;
+    margin-top: auto;
+}
+

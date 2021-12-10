@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Senha</title>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Gerador de Senha</h1>
+        <label for="tamanho">
+            Tamanho da Senha: <input type="number" id="tamanho" min="6" value="6">
+        </label>
+        <label for="numeroSenhas">
+            Número de Senhas Geradas: <input type="number" id="numSenhas" min="1" value="1">
+        </label>
+        <label for="numero" style="margin-top: 1rem;"><input type="checkbox" id="num" checked> Incluir Números</label>
+        <label for="maiusculas"><input type="checkbox" id="minu"> Incluir Letras Minúsculas</label>
+        <label for="maiusculas"><input type="checkbox" id="maiu"> Incluir Letras Maiúsculas</label>
+        <label for="especiais"><input type="checkbox" id="esp"> Incluir Caracteres Especiais
+            ([!@#$%&*()-+.,;?{[}]^>:)</label>
+        <button onclick="gerar()"><h3>GERAR</h3></button>
+        <textarea name="senhas" id="senhas" cols="50" rows="10"></textarea>
+    </div>
+    <footer>
+        <p>2021 - Desenvolvido por Rafael Rossi</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
